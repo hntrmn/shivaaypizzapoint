@@ -1,0 +1,34 @@
+@media screen and (max-device-width:938px){
+    .pizzapic{
+        width:unset;
+        height: 25%;
+        /* border: 7px solid yellow; */
+    }
+    
+}
+@media all and (max-device-width:615px) and (min-device-width:200px){
+   
+        .pizzapic {
+            width: 150px;
+            height: 240px;
+        }
+        .menupic{
+            width: 76%;
+        }
+        .btsubtitle{
+            width: 100%;
+        }
+        .section1{ 
+            margin: 0;
+            padding: 0;
+            /* flex-direction: column; */
+            align-items: center;
+        }
+        .headline{
+            font-size: 12px;
+        }
+        .pizzalistitemall {
+            margin-bottom: 8px;
+        }
+
+}
